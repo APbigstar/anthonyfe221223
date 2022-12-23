@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  class="App"
+>
+  <h2>
+    Unhandled Thrown Error!
+  </h2>
+  <h3
+    style="font-style: italic;"
+  >
+    could not find react-redux context value; please ensure the component is wrapped in a &lt;Provider&gt;
+  </h3>
+  <pre
+    style="padding: 0.5rem; background-color: rgba(200, 200, 200, 0.5);"
+  >
+    Error: could not find react-redux context value; please ensure the component is wrapped in a &lt;Provider&gt;
+    at useReduxContext (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useReduxContext.js:30:11)
+    at useStore (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useStore.js:25:9)
+    at useDispatch (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useDispatch.js:21:19)
+    at useAppDispatch (D:\\my-app\\src\\app\\hooks.ts:5:48)
+    at Widget (D:\\my-app\\src\\components\\widget\\Widget.tsx:17:34)
+    at renderWithHooks (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:16305:18)
+    at mountIndeterminateComponent (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:20074:13)
+    at beginWork (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:21587:16)
+    at beginWork$1 (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:27426:14)
+    at performUnitOfWork (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26560:12)
+    at workLoopSync (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26466:5)
+    at renderRootSync (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26434:7)
+    at recoverFromConcurrentError (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:25850:20)
+    at performConcurrentWorkOnRoot (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:25750:22)
+    at flushActQueue (D:\\my-app\\node_modules\\react\\cjs\\react.development.js:2667:24)
+    at act (D:\\my-app\\node_modules\\react\\cjs\\react.development.js:2582:11)
+    at D:\\my-app\\node_modules\\@testing-library\\react\\dist\\act-compat.js:63:25
+    at renderRoot (D:\\my-app\\node_modules\\@testing-library\\react\\dist\\pure.js:159:26)
+    at render (D:\\my-app\\node_modules\\@testing-library\\react\\dist\\pure.js:246:10)
+    at Object.&lt;anonymous&gt; (D:\\my-app\\src\\App.test.tsx:5:31)
+    at Runtime._execModule (D:\\my-app\\node_modules\\jest-runtime\\build\\index.js:1377:24)
+    at Runtime._loadModule (D:\\my-app\\node_modules\\jest-runtime\\build\\index.js:989:12)
+    at Runtime.requireModule (D:\\my-app\\node_modules\\jest-runtime\\build\\index.js:849:12)
+    at jestAdapter (D:\\my-app\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:77:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runTestInternal (D:\\my-app\\node_modules\\jest-runner\\build\\runTest.js:367:16)
+    at runTest (D:\\my-app\\node_modules\\jest-runner\\build\\runTest.js:444:34)
+  </pre>
+  <p>
+    💿 Hey developer 👋
+  </p>
+  <p>
+    You can provide a way better UX than this when your app throws errors by providing your own 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      errorElement
+    </code>
+     props on 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      &lt;Route&gt;
+    </code>
+  </p>
+</div>
+`;
+
+exports[`renders learn react link 1`] = `
+<div
+  class="App"
+>
+  <h2>
+    Unhandled Thrown Error!
+  </h2>
+  <h3
+    style="font-style: italic;"
+  >
+    could not find react-redux context value; please ensure the component is wrapped in a &lt;Provider&gt;
+  </h3>
+  <pre
+    style="padding: 0.5rem; background-color: rgba(200, 200, 200, 0.5);"
+  >
+    Error: could not find react-redux context value; please ensure the component is wrapped in a &lt;Provider&gt;
+    at useReduxContext (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useReduxContext.js:30:11)
+    at useStore (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useStore.js:25:9)
+    at useDispatch (D:\\my-app\\node_modules\\react-redux\\lib\\hooks\\useDispatch.js:21:19)
+    at useAppDispatch (D:\\my-app\\src\\app\\hooks.ts:5:48)
+    at Widget (D:\\my-app\\src\\components\\widget\\Widget.tsx:17:34)
+    at renderWithHooks (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:16305:18)
+    at mountIndeterminateComponent (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:20074:13)
+    at beginWork (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:21587:16)
+    at beginWork$1 (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:27426:14)
+    at performUnitOfWork (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26560:12)
+    at workLoopSync (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26466:5)
+    at renderRootSync (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:26434:7)
+    at recoverFromConcurrentError (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:25850:20)
+    at performConcurrentWorkOnRoot (D:\\my-app\\node_modules\\react-dom\\cjs\\react-dom.development.js:25750:22)
+    at flushActQueue (D:\\my-app\\node_modules\\react\\cjs\\react.development.js:2667:24)
+    at act (D:\\my-app\\node_modules\\react\\cjs\\react.development.js:2582:11)
+    at D:\\my-app\\node_modules\\@testing-library\\react\\dist\\act-compat.js:63:25
+    at renderRoot (D:\\my-app\\node_modules\\@testing-library\\react\\dist\\pure.js:159:26)
+    at render (D:\\my-app\\node_modules\\@testing-library\\react\\dist\\pure.js:246:10)
+    at Object.&lt;anonymous&gt; (D:\\my-app\\src\\App.test.tsx:8:31)
+    at Promise.then.completed (D:\\my-app\\node_modules\\jest-circus\\build\\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\\my-app\\node_modules\\jest-circus\\build\\utils.js:222:10)
+    at _callCircusTest (D:\\my-app\\node_modules\\jest-circus\\build\\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (D:\\my-app\\node_modules\\jest-circus\\build\\run.js:184:3)
+    at _runTestsForDescribeBlock (D:\\my-app\\node_modules\\jest-circus\\build\\run.js:86:9)
+    at run (D:\\my-app\\node_modules\\jest-circus\\build\\run.js:26:3)
+    at runAndTransformResultsToJestFormat (D:\\my-app\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:120:21)
+    at jestAdapter (D:\\my-app\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)
+    at runTestInternal (D:\\my-app\\node_modules\\jest-runner\\build\\runTest.js:367:16)
+    at runTest (D:\\my-app\\node_modules\\jest-runner\\build\\runTest.js:444:34)
+  </pre>
+  <p>
+    💿 Hey developer 👋
+  </p>
+  <p>
+    You can provide a way better UX than this when your app throws errors by providing your own 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      errorElement
+    </code>
+     props on 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      &lt;Route&gt;
+    </code>
+  </p>
+</div>
+`;

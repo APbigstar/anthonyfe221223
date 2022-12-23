@@ -1,0 +1,67 @@
+.widgetContainer {
+  max-width: 340px;
+  width: 100%;
+  border: 1px solid #eee;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textLeft p {
+  font-size: 14px;
+}
+
+.userContainer {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.viewAll {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 14px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #aaa;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+.textLeft {
+  text-align: left;
+}
